@@ -6,11 +6,15 @@
 2. Download _any_ preferred GUI tool for database management. We'll use [Tableplus](https://tableplus.com/)
 
 
+## How to run
+1. In repo directory, open command line and write `docker-compose up`
+2. DB should be up and running. You can connect to it with the credentials specified in `docker-compose.yml`
+
 # DB diagram
 ![DB to create](/img/db.png)
 Our job will be to create this DB structure.
 
-Note: the relation between `vehicles` and `users` is `m:n`, but the junction table is not shown in the diagram.
+Note: the relation between `vehicles` and `users` is `m:n`, but the junction table `vehicles_users` is not shown in the diagram :).
 
 After successful DB creation, use these following inserts to insert some data.
 ```sql

@@ -1,9 +1,9 @@
 # Carvago SQL practical part
 
-## Prerequisities
+## Prerequisites
 1. Download `docker-compose` [at this link](https://docs.docker.com/compose/install/)
    2. You can either install the docker desktop which comes with `docker-compose`, or if you have the docker engine and/or docker CLI, you just need to install the compose plugin from command line.
-2. Download _any_ preferred GUI tool for database management. We'll use [Tableplus](https://tableplus.com/)
+2. Download _any_ preferred GUI tool for database management. In the presentation, we'll use [Tableplus](https://tableplus.com/)
 
 
 ## How to run
@@ -16,7 +16,7 @@ Our job will be to create this DB structure.
 
 Note: the relation between `vehicles` and `users` is `m:n`, but the junction table `vehicles_users` is not shown in the diagram :).
 
-After successful DB creation, use these following inserts to insert some data.
+### After successful DB creation, use these following inserts to insert some data.
 ```sql
 -- Insert 10 rows into the users table
 INSERT INTO users (username, is_admin, created_at)
@@ -100,11 +100,13 @@ VALUES
 ```
 
 ## Additional tasks
-1. a
-2. a
-3. a
-4. a
-5. a
-6. a
-7. a
-8. a
+1. Select everything from all users.
+2. Find all posts created by a specific user - `user5`
+3. Count number of posts per user
+4. List all admin users
+5. Select All vehicles and their owners
+6. Find users without posts
+7. List posts with status and username
+8. Find all vehicles of admin users
+9. Select users and the date they created their first post
+10. Find users who have both posts and vehicles in DB

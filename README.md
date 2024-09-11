@@ -75,7 +75,7 @@ VALUES
 
 ```sql
 -- Insert sample rows into the vehicles_users table
-INSERT INTO vehicles_users (vehicles_id, users_id)
+INSERT INTO vehicles_users (vehicle_id, user_id)
 VALUES
   (3, 5),
   (4, 5),

@@ -108,5 +108,4 @@ VALUES
 6. Find users without posts
 7. List posts with status and username
 8. Find all vehicles of admin users
-9. Select users and the date they created their first post
-10. Find users who have both posts and vehicles in DB
+9. Find users who have both posts and vehicles in DB

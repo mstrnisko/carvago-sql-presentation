@@ -101,9 +101,9 @@ VALUES
 
 ## Additional tasks
 1. Select everything from all users.
-2. Find all posts created by a specific user - `user5`
-3. Count number of posts per user
-4. List all admin users
+2. List all admin user
+3. Find all posts created by a specific user - `user5`
+4. Count number of posts per user
 5. Select All vehicles and their owners
 6. Find users without posts
 7. List posts with status and username

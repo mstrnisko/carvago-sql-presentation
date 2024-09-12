@@ -2,7 +2,7 @@
 
 ## Prerequisites
 1. Download `docker-compose` [at this link](https://docs.docker.com/compose/install/)
-   2. You can either install the docker desktop which comes with `docker-compose`, or if you have the docker engine and/or docker CLI, you just need to install the compose plugin from command line.
+    2. You can either install the docker desktop which comes with `docker-compose`, or if you have the docker engine and/or docker CLI, you just need to install the compose plugin from command line.
 2. Download _any_ preferred GUI tool for database management. In the presentation, we'll use [Tableplus](https://tableplus.com/)
 
 
